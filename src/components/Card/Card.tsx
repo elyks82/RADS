@@ -10,7 +10,7 @@ const Card = React.forwardRef<HTMLDivElement, CardProps>((props, ref) => {
   return (
     <StyledCard ref={ref} width={width} nib={nib} {...restProps}>
       {children}
-    </StyledCard>
+    </StyledCard> 
   )
 })
 
